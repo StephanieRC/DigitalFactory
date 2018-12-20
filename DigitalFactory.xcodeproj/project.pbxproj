@@ -15,6 +15,7 @@
 		9730EE9F21C5F94B008F7E53 /* DigitalFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730EE9E21C5F94B008F7E53 /* DigitalFactoryUITests.swift */; };
 		9730EEAD21C60C33008F7E53 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730EEAC21C60C33008F7E53 /* CalculatorViewController.swift */; };
 		9730EEAF21C6ADD2008F7E53 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730EEAE21C6ADD2008F7E53 /* CalculatorLogic.swift */; };
+		9730EEB121C6B316008F7E53 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730EEB021C6B316008F7E53 /* InputValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9730EEA021C5F94B008F7E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9730EEAC21C60C33008F7E53 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		9730EEAE21C6ADD2008F7E53 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
+		9730EEB021C6B316008F7E53 /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				9730EE7E21C5F949008F7E53 /* AppDelegate.swift */,
 				9730EEAC21C60C33008F7E53 /* CalculatorViewController.swift */,
-				9730EE8221C5F949008F7E53 /* Main.storyboard */,
+				9730EEB021C6B316008F7E53 /* InputValidator.swift */,
 				9730EEAE21C6ADD2008F7E53 /* CalculatorLogic.swift */,
+				9730EE8221C5F949008F7E53 /* Main.storyboard */,
 				9730EE8521C5F94B008F7E53 /* Assets.xcassets */,
 				9730EE8721C5F94B008F7E53 /* LaunchScreen.storyboard */,
 				9730EE8A21C5F94B008F7E53 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9730EEAD21C60C33008F7E53 /* CalculatorViewController.swift in Sources */,
+				9730EEB121C6B316008F7E53 /* InputValidator.swift in Sources */,
 				9730EE7F21C5F949008F7E53 /* AppDelegate.swift in Sources */,
 				9730EEAF21C6ADD2008F7E53 /* CalculatorLogic.swift in Sources */,
 			);
